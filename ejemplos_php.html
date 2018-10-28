@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Inicio de Lectura O.V.I. | OVI UNIDAD 2. Vinculación de BD a una página con PHP </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<a href="http://www.reliablecounter.com" target="_blank"><img src="https://www.reliablecounter.com/count.php?page=168380839&digit=style/plain/27/&reloads=0" alt="" title="" border="0"></a><br /><a href="http://foojee.net" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;">Visita</a>
+
+<body class="exe-web-site"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">OVI UNIDAD 2. Vinculación de BD a una página con PHP</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Inicio</a></li>
+   <li id="active"><a href="introduccion_php.html" class="active daddy">Material de Lectura O.V.I.</a>
+   <ul>
+      <li><a href="introduccion_php.html" class="no-ch">Que es PHP</a></li>
+      <li><a href="programas_php.html" class="no-ch">Programas de Libre Distribucion en PHP</a></li>
+      <li><a href="PhpMyAdmin.html" class="no-ch">PhpMyAdmin</a></li>
+      <li><a href="php_bd.html" class="no-ch">Interactuar con Bases de Datos</a></li>
+      <li><a href="ejemplos_php.html" class="no-ch">Uso Practico</a></li>
+   </ul>
+   </li>
+   <li><a href="material_multimedial_ovi.html" class="daddy">Material Multimedial O.V.I.</a>
+   <ul class="other-section">
+     <li><a href="video_instalacion_AppServ.html" class="no-ch">Vídeo Instalación AppServ</a></li>
+   </ul>
+   </li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="presentacin_introductoria_a_html5.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Uso Práctico : Modelo Vista Controlador</h1></div>
+
+<div >
+<p>Es un patrón de desarrollo o un estilo de arquitectura de software que separa el código fuente de las aplicaciones en tres grupos: </p>
+</div>
+
+<div id="nodeDecoration"><h1 id="nodeTitle">Modelo</h1></div>
+
+<div><p>Todo el código que tiene que ver con el acceso a base de datos. En el modelo mantendremos encapsulada la complejidad de nuestra base de datos y simplemente crearemos funciones para recibir, insertar, actualizar o borrar información de nuestras tablas. Al mantenerse todas las llamadas a la base de datos en un mismo código, desde otras partes del programa podremos invocar las funciones que necesitemos del modelo y éste se encargará de procesarlas. En el modelo nos podrán preocupar cosas como el tipo de base de datos con la que trabajamos, o las tablas y sus relaciones, pero desde las otras partes del programa simplemente llamaremos a las funciones del modelo sin importarnos qué tiene que hace éste para conseguir realizar las acciones invocadas.</p></div>
+
+<div id="nodeDecoration"><h1 id="nodeTitle">Vista</h1></div>
+
+<div><p>La vista codifica y mantiene la presentación final de nuestra aplicación de cara al usuario. Es decir, en la vista colocaremos todo el código HTML, CSS, Javascript, etc. que se tiene que generar para producir la página tal cual queremos que la vea el usuario. En la práctica la vista no sólo sirve para producir páginas web, sino también cualquier otra salida que queramos enviar al usuario, en formatos o lenguajes distintos, como pueden ser feeds RSS, archivos JSON, XML, etc.</p></div>
+
+
+<div id="nodeDecoration"><h1 id="nodeTitle">Controlador</h1></div>
+
+<div><p>El controlador podríamos decir que es la parte más importante, porque hace de enlace entre el modelo, la vista y cualquier otro recurso que se tenga que procesar en el servidor para generar la página web. En resumen, en el controlador guardamos la lógica de nuestras páginas y realizamos todas las acciones que sean necesarias para generarlas, ayudados del modelo o la vista.</p></div>
+
+<div><img src="MVC.png"></div>
+
+<p></p>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="presentacin_introductoria_a_html5.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="siteFooter">Desarrollado por: Manuel Alfonso Salcedo Amaris<br>
+Universidad Nacional Abierta y a Distancia UNA - (2018)  </div></div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
